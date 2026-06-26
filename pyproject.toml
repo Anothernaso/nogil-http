@@ -1,0 +1,18 @@
+[project]
+name = "nogil-http"
+version = "0.1.0"
+description = "A web server that achieves true parallelism without using multi-processing"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = [
+    "nogil_http",
+]
