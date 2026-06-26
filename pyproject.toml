@@ -1,7 +1,7 @@
 [project]
 name = "nogil-http"
 version = "0.1.0"
-description = "A web server that achieves true parallelism without using multi-processing"
+description = "An HTTP server that achieves true parallelism without using multi-processing, implemented in pure Python."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []

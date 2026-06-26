@@ -1,5 +1,5 @@
 # **nogil-http** for Python
-> A web server that achieves true parallelism without using multi-processing
+> An HTTP server that achieves true parallelism without using multi-processing, implemented in pure Python.
 
 ## **0%** GIL, **100%** Parallelism
 > How does it work?
