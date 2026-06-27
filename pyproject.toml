@@ -3,10 +3,31 @@ name = "nogil-http"
 version = "0.1.0"
 description = "An HTTP server that achieves true parallelism without using multi-processing, implemented in pure Python."
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.14"
 dependencies = []
 
+authors = [
+    { name = "Anatnaso", email = "antondev@kuthy.com" },
+]
+
+maintainers = [
+    { name = "Anatnaso", email = "antondev@kuthy.com" },
+]
+
+keywords = [
+    "http",
+    "server",
+    "networking",
+    "nogil",
+    "python",
+]
+
+[project.urls]
+Repository = "https://github.com/Anothernaso/nogil-http"
+
 [project.scripts]
+example = "nogil_http_example:main"
 
 [build-system]
 requires = ["uv_build>=0.11,<0.12"]
@@ -15,4 +36,5 @@ build-backend = "uv_build"
 [tool.uv.build-backend]
 module-name = [
     "nogil_http",
+    "nogil_http_example",
 ]
